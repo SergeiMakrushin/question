@@ -14,5 +14,4 @@ public interface QuestionService {
 
     Question getRandomQuestion ();
 
-
 }

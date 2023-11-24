@@ -14,7 +14,6 @@ public class ExaminerServiceImpl implements ExaminerService {
         this.questionService = questionService;
     }
 
-
     @Override
     public Collection<Question> getQuestions(int amount) {
         if (questionService.getAll().size() < amount) {
@@ -37,7 +36,3 @@ public class ExaminerServiceImpl implements ExaminerService {
 
 }
 
-//@Override
-//    public Collection<Question> getAll() {
-//        return questionService.getAll();
-//    }

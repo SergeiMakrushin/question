@@ -3,18 +3,14 @@ package com.example.question.entity;
 import java.util.Objects;
 
 public class Question {
-//    private static int couter;
-//
-//    private  int id;
-    private  String question;
-    private  String answer;
+
+    private String question;
+    private String answer;
 
     public Question(String question, String answer) {
         this.question = question;
         this.answer = answer;
-//        this.id = ++couter;
     }
-
 
     public String getQuestion() {
         return question;
@@ -24,16 +20,9 @@ public class Question {
         return answer;
     }
 
-//    public int getId() {
-//        return id;
-//    }
-    public  void setQuestion (String question) {
-        this.question=question;
+    public void setQuestion(String question) {
+        this.question = question;
     }
-
-//    public void setId(int id) {
-//        this.id = id;
-//    }
 
     public void setAnswer(String answer) {
         this.answer = answer;
